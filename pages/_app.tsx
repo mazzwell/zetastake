@@ -1,10 +1,10 @@
 import { ThirdwebProvider } from "@thirdweb-dev/react";
 import type { AppProps } from "next/app";
 import "../styles/globals.css";
-import { TaikoEldfellL3 } from "@thirdweb-dev/chains";
+import { ZetachainAthens3Testnet } from "@thirdweb-dev/chains";
 
 // This is the chain your dApp will work on.
-const activeChain = "TaikoEldfellL3";
+const activeChain = "ZetachainAthens3Testnet";
 
 function MyApp({ Component, pageProps }: AppProps) {
   return (
