@@ -9,7 +9,7 @@ const activeChain = "ZetachainAthens3Testnet";
 function MyApp({ Component, pageProps }: AppProps) {
   return (
     <ThirdwebProvider
-      activeChain={TaikoEldfellL3}
+      activeChain={ZetachainAthens3Testnet}
       clientId={process.env.NEXT_PUBLIC_TEMPLATE_CLIENT_ID}
     >
       <Component {...pageProps} />
